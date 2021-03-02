@@ -1,6 +1,11 @@
+# Framework
 Django>=3.0,<4.0
+
+# List packages
+pipdeptree==2.0.0
 
 # Library to connect to Postgres
 psycopg2-binary>=2.8
 
-pipdeptree==2.0.0
+# Widgets
+django-tempus-dominus==5.1.2.13
