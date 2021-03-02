@@ -1,10 +1,8 @@
-# forms_django
+# Alura Passagens
 
-# Alura Receita
+👋 Olá, Seja Bem-vindo(a) ao 'Alura Passagens'.
 
-👋 Olá, Seja Bem-vindo(a) ao 'Alura Receita'.
-
-# Projeto 'Alura Receita' do curso [Formulários no Django 3: criando e validando dados](https://cursos.alura.com.br/course/django-validando-formularios)
+# Projeto 'Alura Passagens' do curso [Formulários no Django 3: criando e validando dados](https://cursos.alura.com.br/course/django-validando-formularios)
 
 # Aulas
 
@@ -127,7 +125,7 @@ docker-compose run --rm web bash
 Para acessar a instância do banco de dados, execute:
 
 ```sh
-docker exec-it [nome do db] bash
+docker exec -it [nome do db] bash
 ```
 
 Para derrubar e subir a instância do docker novamente, execute:
