@@ -74,10 +74,16 @@
 
 # Notas das aulas:
 
-* Introdução: Projeto e subindo servidor  
+* Introdução: 
     Rode no seu terminal:
     ```sh
     sudo docker-compose run web django-admin.py startproject alurapassagens .
+    ```
+
+* Iniciando a aplicação:
+    Rode na bash do container:
+    ```sh
+    python manage.py startapp passagens
     ```
 
 ## Sobre o projeto:
