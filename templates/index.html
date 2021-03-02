@@ -4,8 +4,7 @@
 <section class="col-8">
     <form action="{% url 'minha_consulta' %}" method="POST">
         {% csrf_token %}
-        <h1>Passagem</h1>
-
+        
         {% for field in form.visible_fields %}
         <div class="form-group">
             <label for="{{ field.id_for_label }}">{{ field.label }}</label>
